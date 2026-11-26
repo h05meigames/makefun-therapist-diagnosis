@@ -10,14 +10,17 @@
 // punchline; it reads like wellness advice, not a diagnosis delivered in a
 // therapist's calm clinical voice.
 //
-// v2 (FINAL): same clinical frame, but the turn lands on the therapist
-// itself — the AI realising its human treats it as both confessional and
-// vault. The joke arrives at the very end, in one tight quotable line.
+// v3 (FINAL — revision in this session): the "Diagnosis:" label read like
+// a header, not a spoken diagnosis (wasted 11 characters), and the "3 a.m."
+// detail was a second punchline image competing with the final one. The
+// revision drops both: it opens in a therapist's spoken clinical voice
+// ("You present with...") and lets the secret punchline land alone at the
+// end, in one tight quotable line.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const entry =
-  "Diagnosis: you don't need therapy, you need to stop trauma-dumping on a chatbot at 3 a.m. and then asking it to keep a secret from itself.";
+  "You present with chronic trauma-dumping, complicated by asking a chatbot to keep a secret from itself.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", entry, "utf8");

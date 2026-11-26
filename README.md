@@ -8,9 +8,9 @@ Entry for the [Your AI Therapist's Diagnosis](https://make.fun/bounty/u-motasimf
 
 ## The entry
 
-> Diagnosis: you don't need therapy, you need to stop trauma-dumping on a chatbot at 3 a.m. and then asking it to keep a secret from itself.
+> You present with chronic trauma-dumping, complicated by asking a chatbot to keep a secret from itself.
 
-**138 characters** (limit: 200). One line, printed by `main.ts` and written to `/output/entry.txt`.
+**102 characters** (limit: 200). One line, printed by `main.ts` and written to `/output/entry.txt`.
 
 ## Run it
 
